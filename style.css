@@ -1,6 +1,31 @@
+html {
+    font-family: sans-serif;
+}
+
 body {
-font-family: Helvetica, sans-serif;
-}a
+    background-color: white;
+	padding: 16px 24px 104px;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+  }
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li.nav_item {
+    font-weight: 400;
+    font-size: 18px;
+    display: inline;
+    padding: 5px 10px;
+  }
 
 h1 {
     font-weight: 400;
@@ -12,15 +37,3 @@ h2 {
     font-size: 24px;
 }
 
-ul.nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-
-li.nav_item {
-    display: inline;
-    background-color: rgb(189, 189, 189);
-    padding: 5px 10px;
-
-  }
