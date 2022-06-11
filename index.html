@@ -3,72 +3,94 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="/assets/favico.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Outfit&display=swap" rel="stylesheet">
   <title>Yahor Harai CV</title>
 </head>
 
+
 <body>
-  <header>
-    <div class="nav">
-      <nav class="navigation">
-        <ul class="nav">
-          <li class="nav_item"><a href="#contacts" class="a_nav">Contacts</a></li>
-          <li class="nav_item"><a href="#about" class="a_nav">About me</a></li>
-          <li class="nav_item"><a href="#skills" class="a_nav">Education & skills</a></li>
-          <li class="nav_item"><a href="#code" class="a_nav">Code example</a></li>
-        </ul>
-      </nav>
-    </div>
+  <header class="header">
+    <div class="container"></div>
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link">About me</a></li>
+        <li class="nav-item"><a href="#skills" class="nav-link">Education & skills</a></li>
+        <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+      </ul>
+    </nav>
   </header>
-  <main>
-    <div class="name">
-    <h1>Hello, my name is Yahor Harai</h1>
-    <img src="/assets/img/yahor.png" alt="Yahor Harai photo" width="200px">
+
+  <main class="main">
+    <div id="hello" class="container">
+      <h1>Hello,
+        <br>
+        my name is
+        <br>
+        Yahor Harai
+      </h1>
+      <img src="/assets/img/yahor.png" alt="Yahor's happy face" width="220px" height="220px">
     </div>
-    
-    <div id="contacts">
+
+    <div id="contacts" class="container">
       <h2>Contacts</h2>
-      <p class="contact_line">Vilnius, Lithuania</p>
-      <p class="contact_line">Phone: +370 32 341</p>
-      <p class="contact_line">E-mail: <a href="mailto:egor.garai@gmail.com">egor.garai@gmail.com</a></p>
-      <p class="contact_line">Telegram: @haaraai</p>
+      <p class="contact-line">Vilnius, Lithuania</p>
+      <p class="contact-line">Phone: +370 693 32 341</p>
+      <p class="contact-line">E-mail: <a href="mailto:egor.garai@gmail.com">egor.garai@gmail.com</a></p>
+      <p class="contact-line">Telegram: @haaraai</p>
     </div>
-    <div id="about">
+
+    <div id="about" class="container">
       <h2>About me</h2>
       <p>I am a journalist by education, many years I was engaged in photography.
         <br>
-        I got into publishing and printing world after, which inspired me later become co-founder of letterpress
-        studio.
+        I got into publishing and printing world after, which inspired me later become co-founder
         <br>
-        These time i was side by side with graphic design, publishing layouts systems and etc.
+        of letterpress studio. These time i was side by side with graphic design,
+        <br>
+        layouts systems and
+        etc.
       </p>
     </div>
-
-    <div id="skills">
+    <div id="skills" class="container">
       <h2>Education & skills</h2>
+      <p>Bachelors degree in journalism and documentary photography</p>
       <ul class="skills">
         <li>HTML, CSS & Web Design basics at <a href="https://ru.code-basics.com/">code-basics.com</a></li>
         <li>Modern layout basics at <a href="https://hexlet.io">hexlet.io</a></li>
         <li>Figma</li>
         <li>Adobe Illustrator, Adobe Photoshop</li>
       </ul>
+      <h2>Languages</h2>
+      <p>English — B2
+        <br>
+        Belarusian/Russian — Native
+      </p>
     </div>
 
-    <div id="code">
+
+    <div id="code" class="container">
       <h2>Code example</h2>
       <code>
-            alert('Hello World');
-           </code>
+              console.log('Hello World');
+            </code>
     </div>
+  </main>
 
-  </main>
+
   <footer>
-    <a href="https://github.com/haraai" class="url" target="_blank" alt="My Github">Github</a>
-    <a href="https://rs.school/" class="url" target="_blank" alt="Rolling Scopes school logo"><img src="https://rs.school/images/rs_school_js.svg"
-        width="80"></a>
-    <a href="https://rs.school/" class="url" alt="Rolling Scope school homepage">Rolling Scopes School</a>
+    <div id="footer" class="container">
+      <a href="https://github.com/haraai" class="url" target="_blank" alt="My Github">Github</a>
+      <a href="https://rs.school/" class="url" target="_blank" alt="Rolling Scopes school logo"><img src="/assets/img/rs_school_js.svg" width="80"></a>
+      <a href="https://rs.school/" class="url" alt="Rolling Scope school homepage">Rolling Scopes School</a>
+    </div>
   </footer>
-  </main>
 </body>
 
 </html>
