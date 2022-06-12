@@ -13,21 +13,22 @@
   <title>Yahor Harai CV</title>
 </head>
 
-
 <body>
-  <header class="header">
-    <div class="container"></div>
-    <nav class="nav">
-      <ul class="nav-list">
-        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
-        <li class="nav-item"><a href="#about" class="nav-link">About me</a></li>
-        <li class="nav-item"><a href="#skills" class="nav-link">Education & skills</a></li>
-        <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
-      </ul>
-    </nav>
+  <header>
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts">Contacts</a></li>
+          <li class="nav-item"><a href="#about">About me</a></li>
+          <li class="nav-item"><a href="#skills">Education & skills</a></li>
+          <li class="nav-item"><a href="#lang">Languages</a></li>
+          <li class="nav-item"><a href="#code">Code</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <main class="main">
+  <main>
     <div id="hello" class="container">
       <h1>Hello,
         <br>
@@ -40,10 +41,12 @@
 
     <div id="contacts" class="container">
       <h2>Contacts</h2>
-      <p class="contact-line">Vilnius, Lithuania</p>
-      <p class="contact-line">Phone: +370 693 32 341</p>
-      <p class="contact-line">E-mail: <a href="mailto:egor.garai@gmail.com">egor.garai@gmail.com</a></p>
-      <p class="contact-line">Telegram: @haaraai</p>
+      <ul>
+        <li class="contact-line">Vilnius, Lithuania</li>
+        <li class="contact-line">Phone: +370 693 32 341</li>
+        <li class="contact-line">E-mail: <a href="mailto:egor.garai@gmail.com">egor.garai@gmail.com</a></li>
+        <li class="contact-line">Telegram: @haaraai</li>
+      </ul>
     </div>
 
     <div id="about" class="container">
@@ -58,6 +61,7 @@
         etc.
       </p>
     </div>
+
     <div id="skills" class="container">
       <h2>Education & skills</h2>
       <p>Bachelors degree in journalism and documentary photography</p>
@@ -67,6 +71,9 @@
         <li>Figma</li>
         <li>Adobe Illustrator, Adobe Photoshop</li>
       </ul>
+    </div>
+
+    <div id="lang" class="container">
       <h2>Languages</h2>
       <p>English — B2
         <br>
@@ -74,20 +81,21 @@
       </p>
     </div>
 
-
     <div id="code" class="container">
       <h2>Code example</h2>
-      <code>
-              console.log('Hello World');
-            </code>
+      <p>JavaScript:</p>
+      <div class="codex">
+        <code>console.log('Hello World');</code>
+      </div>
     </div>
   </main>
 
-
   <footer>
     <div id="footer" class="container">
-      <a href="https://github.com/haraai" class="url" target="_blank" title="My Github">Github</a>
-      <a href="https://rs.school/" class="url" target="_blank" title="Rolling Scopes school logo"><img src="assets/img/rs_school_js.svg" alt="RS School logo" width="80"></a>
+      <p>2022</p>
+      <a href="https://github.com/haaraai" class="url" target="_blank" title="My Github">Github</a>
+      <a href="https://rs.school/" class="url" target="_blank" title="Rolling Scopes school logo"><img
+          src="assets/img/rs_school_js.svg" alt="RS School logo" width="60"></a>
       <a href="https://rs.school/" class="url" title="Rolling Scope school homepage">Rolling Scopes School</a>
     </div>
   </footer>
