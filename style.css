@@ -45,9 +45,9 @@ h2 {
 
 .nav-item {
   font-weight: 800;
-  font-size: 18px;
+  font-size: 16px;
   display: inline;
-  margin: 10px 35px 0px 0px;
+  margin: 10px 10px 0px 0px;
 
 }
 
@@ -98,6 +98,12 @@ code {
 
 .codex {
 margin-top: 30px;
+}
+
+/* Projects */
+.projects a {
+  text-decoration: none;
+  color: blue
 }
 
 
