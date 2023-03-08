@@ -1,1 +1,1 @@
-# rsschool-cv
+https://haaraai.github.io/rsschool-cv/
